@@ -95,8 +95,15 @@
 .carts-footer text{
     font-size: 30rpx;
     margin-left: 8rpx;
-    line-height: 10rpx;
 }
+
+.selectall {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+
 /*结算按钮*/
 .carts-footer .button{
     line-height: 80rpx;

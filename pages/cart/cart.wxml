@@ -24,13 +24,14 @@
       </view>
     </view>
     
-<view class="carts-footer">
-	<view bindtap="bindSelectAll">
-		<icon wx:if="{{selectedAllStatus}}" type="success_circle" size="20"/>
-		<icon wx:else type="circle" size="20" />
-		<text>全选</text>
-		<text>￥: {{total}}</text>
-	</view>
-	<view class="button" bindtap="bindCheckout">立即结算</view>
+  <view class="carts-footer">
+    <view class="selectall" bindtap="bindSelectAll">
+      <icon wx:if="{{selectedAllStatus}}" type="success_circle" size="20"/>
+    	<icon wx:else type="circle" size="20" />
+    		<text>全选</text>
+        <text>￥: {{total}}</text>
+    </view>
+  	<view class="button" bindtap="bindCheckout">立即结算</view> 
 
+  </view>
 </view>

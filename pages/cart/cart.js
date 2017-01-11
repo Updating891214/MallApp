@@ -39,5 +39,9 @@ Page({data:{carts: [
             carts:carts,
             minusStatuses:minusStatuses
         });
+    },
+
+    bindSelectAll:function(){
+        console.log("select all");
     }
 })
